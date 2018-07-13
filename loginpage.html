@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{
+			padding:0px;
+			margin: 0px;
+		}
+		.box{
+			box-sizing:content-box;
+			width: 200px;
+			height: 200px;
+			padding: 30px;
+			margin-left: 40%;
+			margin-top: 10%;
+			border-radius: 15px;
+			background-color:rgb(0,0,0,0.3);
+
+			}
+			body{
+				background-image: url('background.jpg');
+				background-size: cover;
+				width: 100%;
+			}
+			button{
+				padding: 10px;
+				border-top: none;
+				border-right: none;
+				border-left:none;
+				border-bottom: none;
+				background-color: grey;
+			}
+			button:hover{
+				background-color:black;
+			}
+			input{
+				padding:5px;
+				border-radius: 8px;
+			}
+			a{
+				text-decoration: none;
+				font-size: 20px;
+				color:black;
+			}
+			span{
+				color:black;
+			}
+	</style>
+</head>
+<body>
+	<h1 style="background-color: grey;text-align:center;padding: 10px;color:darkblue"><i><span>l</span>ogin</i></h1>
+	<div class="box">
+		<form action="/action_page.php"method="post">
+		USERNAME<input type="text" name="First Name"placeholder="USERNAME"><br><br>
+		PASSWORD <input type="password" name="last Name"placeholder="PASSWORD"><br><br>
+		<center>
+			<button>login</button><br><br>
+			<a href=" ">create an account</a>
+	</center>
+</form>
+	</div>
+
+</body>
+</html>
